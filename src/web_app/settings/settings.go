@@ -14,7 +14,7 @@ func Init() (err error) {
 	if err != nil {
 		// 读取配置文件失败
 		fmt.Printf("viper.ReadInConfig() failed ,err:%v \n", err)
-		return
+		panic("配置文件读取失败")
 	}
 	viper.WatchConfig()
 	viper.OnConfigChange(func(in fsnotify.Event) {

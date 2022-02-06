@@ -1,0 +1,10 @@
+{"level":"DEBUG","time":"2022-01-26T15:36:06.446+0800","caller":"web_app/main.go:36","msg":"Logger init success..."}
+{"level":"INFO","time":"2022-01-26T15:37:02.699+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-01-26T15:37:02.701+0800","caller":"web_app/main.go:88","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-01-26T15:37:05.413+0800","caller":"web_app/main.go:36","msg":"Logger init success..."}
+{"level":"DEBUG","time":"2022-01-26T15:42:52.760+0800","caller":"web_app/main.go:36","msg":"Logger init success..."}
+{"level":"DEBUG","time":"2022-01-26T15:45:05.686+0800","caller":"web_app/main.go:36","msg":"Logger init success..."}
+{"level":"DEBUG","time":"2022-01-26T17:09:56.749+0800","caller":"web_app/main.go:36","msg":"Logger init success..."}
+{"level":"ERROR","time":"2022-01-26T17:09:56.750+0800","caller":"mysql/mysql.go:24","msg":"connect DB failed","error":"sql: unknown driver \"mysql\" (forgotten import?)"}
+{"level":"DEBUG","time":"2022-01-26T17:12:42.133+0800","caller":"web_app/main.go:36","msg":"Logger init success..."}
+{"level":"DEBUG","time":"2022-02-06T20:01:49.256+0800","caller":"web_app/main.go:36","msg":"Logger init success..."}

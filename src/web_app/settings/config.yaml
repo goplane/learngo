@@ -1,24 +1,24 @@
 app:
-  name:"web_app"
-  mode:"dev"
-  port:"8081"
+  name: "web_app"
+  mode: "dev"
+  port: "8081"
 log:
-  level:"debug"
-  filename:"web_app.log"
-  max_size:200
-  max_age:30
-  max_backups:7
+  level: "debug"
+  filename: "web_app.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
 mysql:
-  host:"122.51.184.129"
-  port:3306
-  user:"root"
-  password:"111111"
-  dbname:"dbname"
-  mysql.max_open_conns:200
-  mysql.max_idle_conns:50
+  host: "122.51.184.129"
+  port: 3306
+  user: "root"
+  password: "111111"
+  dbname: "dbname"
+  mysql.max_open_conns: 200
+  mysql.max_idle_conns: 50
 redis:
-  host:"122.51.184.129"
-  port:6379
-  password:"111111"
-  db:0
-  pool_size:10000
+  host: "122.51.184.129"
+  port: 6379
+  password: "111111"
+  db: 0
+  pool_size: 10000

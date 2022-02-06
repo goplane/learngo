@@ -5,11 +5,12 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
+	_"github.com/go-sql-driver/mysql"
 )
 
 var db *sqlx.DB
 
-func initDB() (err error) {
+func Init() (err error) {
 	dsn := fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?charset=utf8mb4&parseTime=True",
 		viper.GetString("mysql.user"),
 		viper.GetString("mysql.password"),
