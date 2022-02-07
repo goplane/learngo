@@ -43,5 +43,6 @@ func main() {
 	if err != nil {
 		fmt.Printf("run server failed, err:%v\n", err)
 		return
+
 	}
 }
