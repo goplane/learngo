@@ -8,3 +8,6 @@
 {"level":"ERROR","time":"2022-01-26T17:09:56.750+0800","caller":"mysql/mysql.go:24","msg":"connect DB failed","error":"sql: unknown driver \"mysql\" (forgotten import?)"}
 {"level":"DEBUG","time":"2022-01-26T17:12:42.133+0800","caller":"web_app/main.go:36","msg":"Logger init success..."}
 {"level":"DEBUG","time":"2022-02-06T20:01:49.256+0800","caller":"web_app/main.go:36","msg":"Logger init success..."}
+{"level":"DEBUG","time":"2022-02-07T14:34:28.970+0800","caller":"web_app/main.go:36","msg":"Logger init success..."}
+{"level":"ERROR","time":"2022-02-07T14:34:28.990+0800","caller":"mysql/mysql.go:25","msg":"connect DB failed","error":"Error 1049: Unknown database 'dbname'"}
+{"level":"DEBUG","time":"2022-02-07T14:34:54.348+0800","caller":"web_app/main.go:36","msg":"Logger init success..."}

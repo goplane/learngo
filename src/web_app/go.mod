@@ -8,6 +8,7 @@ require (
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/jmoiron/sqlx v1.3.4
 	github.com/natefinch/lumberjack v2.0.0+incompatible
+	github.com/sony/sonyflake v1.0.0
 	github.com/spf13/viper v1.10.1
 	go.uber.org/zap v1.20.0
 )
