@@ -2,10 +2,11 @@ package logic
 
 import (
 	"blue_me/dao/mysql"
+	"blue_me/models"
 	"blue_me/pkg/snowflake"
 )
 
-func SignUp() {
+func SignUp(*models.ParamSignUp) {
 	// 1.判断用户是否存在
 	mysql.QueryUserByUsername()
 	// 2.生成UID
